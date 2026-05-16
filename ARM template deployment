@@ -1,0 +1,5 @@
+# ARM Template Infrastructure Deployment
+
+## Azure CLI Command Executed:
+```bash
+az deployment group create --resource-group "myresourcegroup" --template-file azuredeploy.json --parameters location="eastus2" adminPassword="P@ssword1234!"
