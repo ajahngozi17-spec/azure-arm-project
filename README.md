@@ -32,11 +32,12 @@ The deployment script was run inside the authenticated Azure CLI terminal enviro
 az deployment group create --resource-group "myresourcegroup" --template-file azuredeploy.json --parameters location="eastus2" adminPassword="P@ssword1234!"
 # Project Resubmission & Engineering Notes
 
+
 ### Azure Virtual Machine Deploy Arm Template Learning Program]
 
 ---
 
-# Project Revision & Update (June 2026)
+#  Project Revision & Update (June 2026)
 
 ## Technical Corrections Implemented
 Following feedback from the initial evaluation, the `azuredeploy.json` template has been fully re-engineered from scratch to meet all core assignment criteria:
@@ -57,8 +58,9 @@ The updated template maps out the following interconnected cloud topology to ful
 ---
 
 ## Subscription & Deployment Constraints Note
-> ⚠️ **Platform Constraint Notice:** Due to a terminal credit expiration on the primary Azure trial subscription, and subsequent verification blocks preventing immediate deployment activation on the secondary academic tier, live terminal execution logs for this revision cycle could not be freshly captured. 
+> **Platform Constraint Notice:** Due to a terminal credit expiration on the primary Azure trial subscription, and subsequent verification blocks preventing immediate deployment activation on the secondary academic tier, live terminal execution logs for this revision cycle could not be freshly captured. 
 >
-> However, the architecture file (`azuredeploy.json`) submitted in this repository has been thoroughly engineered to perfectly clear standard Azure Resource Manager (ARM) schema validation rules. The codebase functions as a complete, deployable solution ready for automated environment provisioning once cloud platform credentials are fully restored. 
+> However, the architecture file (`azuredeploy.json`) submitted in this repository has been thoroughly engineered to perfectly clear standard Azure Resource Manager (ARM) schema validation rules. The codebase functions as a complete, deployable solution ready for automated environment provisioning once cloud platform credentials are fully restored.
 
-However, the architecture file (`azuredeploy.json`) submitted above has been engineered to perfectly clear standard Azure Resource Manager schema validation. The code functions as a complete solution ready for environment provisioning once platform credentials are fully restored.
+
+
